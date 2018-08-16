@@ -1,6 +1,0 @@
-.scalable-font {
-  --scale: 1;
-  display:inline-block;
-  transform:scale(var(--scale),1); 
-  -webkit-transform:scale(var(--scale),1);
-}

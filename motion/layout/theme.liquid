@@ -21,8 +21,8 @@
 
   {%- include 'social-meta-tags' -%}
 
-  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
-  {{ 'scalable-font.css' | asset_url | stylesheet_tag }}
+
+  {{ '../assets/style.css' | asset_url | stylesheet_tag }}
   {% include 'google-fonts' %}
 
   <script>

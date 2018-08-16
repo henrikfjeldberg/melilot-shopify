@@ -1,0 +1,32 @@
+{
+  "name": "melilot-shopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikfjeldberg/melilot-shopify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikfjeldberg/melilot-shopify/issues"
+  },
+  "homepage": "https://github.com/henrikfjeldberg/melilot-shopify#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-shopify-upload": "^2.0.0",
+    "gulp-watch": "^5.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  }
+}

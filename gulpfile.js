@@ -25,7 +25,7 @@ function handleErrors() {
 }
 
 gulp.task('sass', function () {
-  gulp.src('./styles/scss/*.{sass,scss}')
+  gulp.src('./styles/scss/style.scss')
     .pipe(sass({includePaths: neat}))
     .on('error', handleErrors)
     .pipe(autoprefixer({ browsers: ['last 2 version'] }))
@@ -33,7 +33,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('./lib/scss/**/*.{sass,scss}', ['sass']);
+  gulp.watch('./styles/scss/**/*.{sass,scss}', ['sass']);
 });
 
 gulp.task('shopifywatch', function() {
